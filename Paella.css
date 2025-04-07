@@ -1,0 +1,17 @@
+body{
+    direction: rtl;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aquamarine;
+}
+header{
+    background-color: antiquewhite;
+    padding: 20px;
+    text-align: center;
+}
+#menu{
+    position: relative;
+    scroll-behavior: smooth;
+    top: 10px;
+    text-align: right;
+    right: 20px;
+}
