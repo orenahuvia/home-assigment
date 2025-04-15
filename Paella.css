@@ -1,17 +1,155 @@
+/*#regionכללי גוף ראש רגליים*/
 body{
     direction: rtl;
-    font-family: 'Times New Roman', Times, serif;
-    background-color: aquamarine;
+    font-family: 'Varela Round', sans-serif;
+    background-color: antiquewhite;
 }
 header{
-    background-color: antiquewhite;
+    box-sizing: border-box;
+    border: 2px solid #FDFBEE;
+    background-color: #EDAFB8;
     padding: 20px;
-    text-align: center;
+    margin: 30px;
+    border-radius: 10px;
 }
 #menu{
+    background-image: url('/valencia-beach-sunset.jpg');
+    border: 0.5px solid #FDFBEE;
+    background-size: cover;
+    border-radius: 10px;
     position: relative;
     scroll-behavior: smooth;
-    top: 10px;
-    text-align: right;
-    right: 20px;
+}
+footer{
+    background-color: #D4F6FF;
+    border: 2px solid #FDFBEE;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 10px;
+}
+#links{
+    background-image: url('/valencia-beach-day.jpg');
+    border: 0.5px solid #FDFBEE;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    position: relative;
+    scroll-behavior: smooth;
+}
+footer Ul{
+    list-style-type: none;
+    text-align: center;
+}
+header Ul{
+    list-style-type: none;
+    text-align: center;
+}
+/*#endregion*/
+/*#region hero section*/
+#containerHero{
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+box-sizing: border-box;
+justify-content: space-between;
+align-content: center;
+row-gap: 5px;
+max-width: 1400px;
+padding: 10px;
+margin: 10px;
+}
+.itemHero{
+    border-radius: 10px;
+    border: 2px solid #FDFBEE;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    flex: 8;
+    margin: 2px;
+}
+#ingridiants{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+}
+.itemHero li{
+    padding: 4px;
+    margin: 8px;
+}
+.subItemHero{
+    flex: 8;
+}
+.subItemHero h2{
+    margin: 4px;
+}
+.heroImage{
+    flex: 4;
+    border: 0.5px solid #FDFBEE;
+    border-radius: 10px;
+    align-self: center;
+    object-fit: cover;
+    width: auto;
+    height: 300px;
+    margin-left: 16px;
+}
+#recipe{
+    background-color:#FAD0C4;
+}
+#cook{
+ background-color: #C7D9DD;
+}
+#history{
+    background-color: #D4F6FF;
+}
+/*#endregion*/
+
+/*#region cards section*/
+#valencian{
+
+}
+.cards-container{
+    box-sizing: border-box;
+    justify-content: space-evenly;
+    background-color: #FAD0C4;
+    border: 2px solid #FDFBEE;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: 20px;
+    gap: 20px;
+}
+.card{
+border-radius: 10px;
+background-color: #D4F6FF;
+border: 1px solid #FDFBEE;
+overflow: hidden;
+width: 320px;
+height: 220px;
+box-sizing: border-box;
+position: relative;
+margin: 5px;
+}
+.cardImage{
+    border: 0.5px solid #FDFBEE;
+    border-radius: 10px;
+    width: 100%;
+    max-height: 160px;
+    object-fit: cover;
+    margin: 2px;
+    padding: 1px;
+}
+.card p{
+    margin: 2px;
+    padding: 0.5px;
+}
+
+/*#endregion*/
+section{
+    box-sizing: border-box;
+    margin: 20px;
+    padding: 20px;
+}
+h2{
+    letter-spacing: 1px;
 }
