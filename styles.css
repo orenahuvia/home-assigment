@@ -13,7 +13,7 @@ header{
     border-radius: 10px;
 }
 #menu{
-    background-image: url('/valencia-beach-sunset.jpg');
+    background-image: url("valencia-beach-sunset.jpg");
     border: 0.5px solid #FDFBEE;
     background-size: cover;
     border-radius: 10px;
@@ -29,7 +29,7 @@ footer{
     border-radius: 10px;
 }
 #links{
-    background-image: url('/valencia-beach-day.jpg');
+    background-image: url("valencia-beach-day.JPG");
     border: 0.5px solid #FDFBEE;
     background-size: cover;
     background-position: center;
